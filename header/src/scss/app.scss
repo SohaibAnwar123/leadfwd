@@ -1,0 +1,11 @@
+@import 'fonts';
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/utilities";
+@import "custom";
+@import "utils";
+
+$fa-font-path: '../fonts/fa';

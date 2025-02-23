@@ -1,0 +1,56 @@
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+
+# new rules as per gdoc
+
+RewriteRule ^platform/sequence-automation$ sales_outreach.php [L]
+RewriteRule ^platform/chrome$ chrome_extension.php [L]
+RewriteRule ^platform/task-management$ task_management.php [L]
+RewriteRule ^platform/visitor-intent-data$ discover.php [L]
+RewriteRule ^platform/b2b-contact-data$ prospect.php [L]
+RewriteRule ^platform/linkedin-prospector$ linkedIn_prospecting.php [L]
+RewriteRule ^platform/linkedin-automation$ linkedIn_automation.php [L]
+RewriteRule ^platform/voicemail-drops$ ringless_voicemail.php [L]
+RewriteRule ^platform/cold-email-software$ cold_outreach.php [L]
+RewriteRule ^services/dfy-lead-generation$ dfy_lead_gen.php [L]
+RewriteRule ^pricing$ pricing.php [L]
+RewriteRule ^platform/agency$ agency.php [L]
+RewriteRule ^connectors/salesforce$ salesforcePage.php [L]
+RewriteRule ^connectors/sugarcrm$ sugar_engage.php [L]
+RewriteRule ^connectors/hubspot$ hubspot.php [L]
+RewriteRule ^connectors/pipedrive$ pipedrive.php [L]
+
+# Basic pages
+
+RewriteRule ^platform/prospect$ prospect.php [L]
+RewriteRule ^platform/engage$ sales_outreach.php [L]
+RewriteRule ^platform/ai-sales-agents$ sales_outreach.php [L]
+RewriteRule ^platform/campaign$ sales_outreach.php [L]
+RewriteRule ^platform/discover$ discover.php [L]
+
+RewriteRule ^solutions/sugar-prospect$ prospect.php [L]
+RewriteRule ^solutions/sugar-engage$ sugar_engage.php [L]
+RewriteRule ^solutions/sugar-campaign$ sugar_engage.php [L]
+RewriteRule ^solutions/salesforce$ salesforcePage.php [L]
+RewriteRule ^solutions/suitecrm$ sugar_engage.php [L]
+RewriteRule ^solutions/privacy-guard$ gdpr.php [L]
+RewriteRule ^solutions$ sales_outreach.php [L]
+RewriteRule ^platform/sequence-automatione$ sales_outreach.php [L]
+
+RewriteRule ^integrations/salesforce$ salesforcePage.php [L]
+RewriteRule ^integrations/sugarcrm$ sugar_engage.php [L]
+RewriteRule ^integrations/suitecrm$ sugar_engage.php [L]
+RewriteRule ^integrations/zendesk$ index.php [L]
+RewriteRule ^integrations/livechat$ index.php [L]
+RewriteRule ^integrations/gotowebinar$ index.php [L]
+RewriteRule ^integrations/twilio$ index.php [L]
+RewriteRule ^integrations/olark$ index.php [L]
+
+RewriteRule ^partners$ agency.php [L]
+
+RewriteRule ^platform/tour$ index.php [L]
+
+
+

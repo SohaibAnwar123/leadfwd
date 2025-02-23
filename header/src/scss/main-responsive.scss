@@ -1,0 +1,78 @@
+/*************************************************************
+ Author     : Vivid Motion @ http://vividmotion.co/
+ *************************************************************/
+@import 'custom';
+
+@media all and (min-width: 576px) {
+
+}
+
+@media all and (min-width: 768px) {
+  $section-gutter: 4rem;
+
+  #hero-home {
+    > .d-flex {
+      min-height: 800px;
+    }
+  }
+
+  .section {
+    padding: $section-gutter 0;
+    > .d-flex {
+      margin: -$section-gutter 0;
+      padding: $section-gutter 0;
+    }
+  }
+}
+
+@media all and (min-width: 1024px) {
+
+}
+
+@media all and (min-width: 1280px) {
+
+}
+
+@media all and (min-width: 1440px) {
+
+}
+
+@media all and (min-width: 1650px) {
+  //.notifications {
+  //  left: 90%;
+  //
+  //  margin-left: -300px;
+  //}
+}
+
+@media all and (min-width: 1920px) {
+  .notifications {
+    left: 100%;
+
+    margin-left: -300px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+
+}
+
+@media all and (max-width: 1024px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 767px) {
+
+}
+
+@media all and (max-width: 575px) {
+
+}
+
+@media all and (max-width: 320px) {
+
+}

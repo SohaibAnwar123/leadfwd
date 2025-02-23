@@ -1,0 +1,19 @@
+* { margin: 0px; padding: 0px; }
+body { height:100%; }
+
+#wrapper {
+	width:500px;
+	margin:15% auto 0 auto;
+	text-align:center;
+	font:15px Arial, Helvetica, sans-serif;
+	min-height:100%;
+	}
+#middle {display: table-cell; vertical-align: middle; position: static;}
+#inner {position: static;}
+.red { color:#cb0000; margin-top:35px; }
+h1 { font:normal 30px Arial, Helvetica, sans-serif; margin-top:5px; }
+a:link, a:visited {
+	color:#cb0000;
+	text-decoration:underline;
+	}
+a:hover { text-decoration:none; }
